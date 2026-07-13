@@ -49,3 +49,108 @@ section {
 .gallery-img:hover {
     transform: scale(1.03);
 }
+/* ===========================
+   Tablet (768px and below)
+=========================== */
+@media (max-width: 768px) {
+
+    body{
+        padding-top: 60px;
+    }
+
+    section{
+        padding: 60px 0;
+    }
+
+    .carousel-item img{
+        height: 50vh;
+    }
+
+    .carousel-caption h5{
+        font-size: 2rem;
+    }
+
+    .carousel-caption p{
+        font-size: 1rem;
+    }
+
+    .gallery-img{
+        height: 220px;
+    }
+
+    .card{
+        margin-bottom: 20px;
+    }
+}
+
+
+/* ===========================
+   Mobile (480px and below)
+=========================== */
+@media (max-width: 480px) {
+
+    body{
+        padding-top: 55px;
+    }
+
+    section{
+        padding: 40px 0;
+    }
+
+    .navbar-brand{
+        font-size: 1.4rem;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    h2{
+        font-size: 1.7rem;
+    }
+
+    h3{
+        font-size: 1.3rem;
+    }
+
+    .carousel-item img{
+        height: 35vh;
+    }
+
+    .carousel-caption{
+        bottom: 20px;
+    }
+
+    .carousel-caption h5{
+        font-size: 1.4rem;
+    }
+
+    .carousel-caption p{
+        font-size: 0.9rem;
+    }
+
+    .carousel-caption .btn{
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .gallery-img{
+        height: 180px;
+    }
+
+    .card{
+        margin-bottom: 20px;
+    }
+
+    .card-title{
+        font-size: 1.2rem;
+    }
+
+    .card-text{
+        font-size: 0.95rem;
+    }
+
+    footer{
+        text-align: center;
+    }
+}
