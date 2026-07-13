@@ -1,0 +1,51 @@
+:root {
+    --primary-font: 'Plus Jakarta Sans', sans-serif;
+    --brand-font: 'Lobster Two', cursive;
+    --primary-color: #0d6efd;
+}
+
+body {
+    font-family: var(--primary-font);
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    padding-top: 70px;
+}
+
+/* Applying Google Font to headings & brand */
+.navbar-brand, h1, h2, h3, .carousel-caption h5 {
+    font-family: var(--brand-font);
+    font-weight: 700;
+}
+
+/* Carousel Image Tuning */
+.carousel-item img {
+    height: 70vh;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+
+/* Uniform Section Spacing */
+section {
+    padding: 90px 0;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.gallery-img {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+    transform: scale(1.03);
+}
